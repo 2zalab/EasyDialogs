@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="easyui_dialog_background">#FFFFFF</color>
+    <color name="easyui_dialog_title">#212121</color>
+    <color name="easyui_dialog_message">#757575</color>
+    <color name="easyui_dialog_positive_button">#FFF</color>
+    <color name="easyui_dialog_negative_button">#FFF</color>
+    <color name="easyui_dialog_neutral_button">#757575</color>
+
+    <color name="easyui_menu_background">#FFFFFF</color>
+    <color name="easyui_menu_text">#212121</color>
+    <color name="easyui_menu_icon_tint">#757575</color>
+    <color name="easyui_menu_divider">#E0E0E0</color>
+
+    <color name="easyui_context_menu_background">#FFFFFF</color>
+    <color name="easyui_context_menu_text">#212121</color>
+    <color name="easyui_context_menu_icon_tint">#757575</color>
+</resources>

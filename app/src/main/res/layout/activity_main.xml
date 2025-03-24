@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Démo EasyAndroidUI"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnShowAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montrer Boîte de Dialogue d'Alerte"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnShowCustomDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montrer Boîte de Dialogue Personnalisée"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnShowMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montrer Menu Déroulant"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvContextMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Appui long pour montrer menu contextuel"
+        android:background="#E0E0E0"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDropdown"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Sélectionnez une option">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialog Attributes -->
+    <declare-styleable name="EasyDialog">
+        <attr name="dialogCornerRadius" format="dimension" />
+        <attr name="dialogBackgroundColor" format="color" />
+        <attr name="dialogTitleColor" format="color" />
+        <attr name="dialogMessageColor" format="color" />
+        <attr name="dialogButtonTextColor" format="color" />
+        <attr name="dialogAnimation" format="reference" />
+    </declare-styleable>
+
+    <!-- Menu Attributes -->
+    <declare-styleable name="EasyMenu">
+        <attr name="menuCornerRadius" format="dimension" />
+        <attr name="menuBackgroundColor" format="color" />
+        <attr name="menuTextColor" format="color" />
+        <attr name="menuIconTint" format="color" />
+        <attr name="menuDividerColor" format="color" />
+        <attr name="menuElevation" format="dimension" />
+    </declare-styleable>
+
+    <!-- Context Menu Attributes -->
+    <declare-styleable name="EasyContextMenu">
+        <attr name="contextMenuCornerRadius" format="dimension" />
+        <attr name="contextMenuBackgroundColor" format="color" />
+        <attr name="contextMenuTextColor" format="color" />
+        <attr name="contextMenuIconTint" format="color" />
+        <attr name="contextMenuElevation" format="dimension" />
+    </declare-styleable>
+</resources>

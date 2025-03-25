@@ -1,14 +1,11 @@
-package com.touzalab.easyandroidui.menu
+package com.touzalab.easydialogs.menu
 
 import android.content.Context
 import android.view.ContextThemeWrapper
-import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.ImageView
 import android.widget.PopupMenu
-import android.widget.TextView
 import androidx.annotation.DrawableRes
 import androidx.annotation.MenuRes
 import androidx.annotation.StringRes

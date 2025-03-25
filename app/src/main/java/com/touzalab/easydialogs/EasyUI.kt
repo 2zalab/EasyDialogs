@@ -8,7 +8,7 @@ import com.touzalab.easydialogs.dialog.EasyAlertDialog
 import com.touzalab.easydialogs.dialog.EasyCustomDialog
 import com.touzalab.easydialogs.menu.EasyContextMenu
 import com.touzalab.easydialogs.menu.EasyDropdownMenu
-import com.touzalab.easyandroidui.menu.EasyMenu
+import com.touzalab.easydialogs.menu.EasyMenu
 import com.google.android.material.textfield.TextInputLayout
 
 /**

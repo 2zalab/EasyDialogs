@@ -46,3 +46,17 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+// Configuration de publication pour une bibliothèque
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                groupId = "com.github.2zalab"  // Votre groupId
+                artifactId = "easydialogs"     // Votre artifactId
+                version = "1.0.1"              // Votre version
+                from(components["release"])
+            }
+        }
+    }
+}

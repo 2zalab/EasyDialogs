@@ -12,7 +12,7 @@ import android.widget.TextView
 import androidx.annotation.DrawableRes
 import androidx.annotation.MenuRes
 import androidx.annotation.StringRes
-import com.touzalab.easyandroidui.R
+import com.touzalab.easydialogs.R
 
 
 /**

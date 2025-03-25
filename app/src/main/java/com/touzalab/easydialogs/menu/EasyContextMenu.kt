@@ -1,4 +1,4 @@
-package com.touzalab.easyandroidui.menu
+package com.touzalab.easydialogs.menu
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -15,7 +15,8 @@ import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.touzalab.easyandroidui.R
+import com.touzalab.easydialogs.R
+
 
 /**
  * Class to create and show custom context menus

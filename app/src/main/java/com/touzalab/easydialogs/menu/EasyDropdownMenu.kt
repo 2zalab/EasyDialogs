@@ -1,4 +1,4 @@
-package com.touzalab.easyandroidui.menu
+package com.touzalab.easydialogs.menu
 import android.content.Context
 import android.view.View
 import android.widget.ArrayAdapter

@@ -6,8 +6,8 @@ import android.widget.AutoCompleteTextView
 import androidx.annotation.StyleRes
 import com.touzalab.easydialogs.dialog.EasyAlertDialog
 import com.touzalab.easydialogs.dialog.EasyCustomDialog
-import com.touzalab.easyandroidui.menu.EasyContextMenu
-import com.touzalab.easyandroidui.menu.EasyDropdownMenu
+import com.touzalab.easydialogs.menu.EasyContextMenu
+import com.touzalab.easydialogs.menu.EasyDropdownMenu
 import com.touzalab.easyandroidui.menu.EasyMenu
 import com.google.android.material.textfield.TextInputLayout
 

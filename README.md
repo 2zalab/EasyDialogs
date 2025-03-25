@@ -31,7 +31,7 @@ Then add the dependency in your module's `build.gradle`:
 
 ```gradle
 dependencies {
-    implementation 'com.github.2zalab:EasyDialogs:1.0.0'
+    implementation 'com.github.2zalab:EasyDialogs:1.0.1'
 }
 ```
 

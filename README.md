@@ -232,6 +232,49 @@ class MainActivity : AppCompatActivity() {
                 .show(view)
             true
         }
+
+// Exemple 3: Menu déroulant
+        val btnShowMenu = findViewById<Button>(R.id.btnShowMenu)
+        btnShowMenu.setOnClickListener { view ->
+            EasyUI.createMenu(this, view)
+                .addItem(1, "Éditer", android.R.drawable.ic_menu_edit) { id ->
+                    Toast.makeText(this, "Éditer sélectionné", Toast.LENGTH_SHORT).show()
+                }
+                .addItem(2, "Partager", android.R.drawable.ic_menu_share) { id ->
+                    Toast.makeText(this, "Partager sélectionné", Toast.LENGTH_SHORT).show()
+                }
+                .addItem(3, "Supprimer", android.R.drawable.ic_menu_delete) { id ->
+                    Toast.makeText(this, "Supprimer sélectionné", Toast.LENGTH_SHORT).show()
+                }
+                .show()
+        }
+
+        // Exemple 4: Menu contextuel
+        val tvContextMenu = findViewById<View>(R.id.tvContextMenu)
+        tvContextMenu.setOnLongClickListener { view ->
+            EasyUI.createContextMenu(this)
+                .addItem(1, "Copier", android.R.drawable.ic_menu_edit) { id ->
+                    Toast.makeText(this, "Copier sélectionné", Toast.LENGTH_SHORT).show()
+                }
+                .addItem(2, "Couper", android.R.drawable.ic_menu_share) { id ->
+                    Toast.makeText(this, "Couper sélectionné", Toast.LENGTH_SHORT).show()
+                }
+                .addItem(3, "Coller", android.R.drawable.ic_menu_delete) { id ->
+                    Toast.makeText(this, "Coller sélectionné", Toast.LENGTH_SHORT).show()
+                }
+                .show(view)
+            true
+        }
+
+        // Exemple 5: Menu déroulant avec TextInputLayout
+        val tilDropdown = findViewById<TextInputLayout>(R.id.tilDropdown)
+        val dropdownMenu: EasyDropdownMenu<String> = EasyUI.createDropdownMenu(this, tilDropdown)
+
+        val items = listOf("Option 1", "Option 2", "Option 3", "Option 4")
+        dropdownMenu.setItems(items)
+        dropdownMenu.setOnItemSelectedListener { item ->
+            Toast.makeText(this, "Sélectionné: $item", Toast.LENGTH_SHORT).show()
+        }
     }
 }
 ```
